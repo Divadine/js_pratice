@@ -9,7 +9,7 @@ let fruits=["apple","banana","grapes","orange"]
 // });
 
 document.getElementById('search').addEventListener('keyup',()=>{
-    document.getElementById("result").innerHTML=''
+    document.getElementById('result').innerHTML=''
     let searchKey=document.getElementById('search').value 
 
     filtered_fruits=fruits.filter(item =>{
